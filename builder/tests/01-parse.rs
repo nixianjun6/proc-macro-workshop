@@ -22,6 +22,7 @@
 //     https://github.com/dtolnay/syn/tree/master/examples/heapsize
 
 use derive_builder::Builder;
+use std::error::Error;
 
 #[derive(Builder)]
 pub struct Command {
