@@ -43,7 +43,6 @@
 //     https://docs.rs/syn/2.0/syn/struct.Ident.html
 
 use derive_builder::Builder;
-use std::error::Error;
 
 #[derive(Builder)]
 pub struct Command {

@@ -11,7 +11,6 @@
 //     }
 
 use derive_builder::Builder;
-use std::error::Error;
 
 #[derive(Builder)]
 pub struct Command {

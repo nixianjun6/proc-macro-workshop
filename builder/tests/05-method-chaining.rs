@@ -2,7 +2,6 @@
 // It shows that we can chain method calls on the builder.
 
 use derive_builder::Builder;
-use std::error::Error;
 
 #[derive(Builder)]
 pub struct Command {
